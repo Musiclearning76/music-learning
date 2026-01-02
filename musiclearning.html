@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Learning</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      background: linear-gradient(135deg, #6366f1, #a855f7);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    nav {
+      background: #020617;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px;
+    }
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #a855f7;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #020617;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #c7d2fe;
+    }
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+    button {
+      background: #6366f1;
+      border: none;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #4f46e5;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Music Learning</h1>
+    <p>Learn music the fun and simple way</p>
+  </header>
+
+  <nav>
+    <a href="#courses">Courses</a>
+    <a href="#instruments">Instruments</a>
+    <a href="#practice">Practice</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="courses">
+    <h2>Our Courses</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Music Basics</h3>
+        <p>Learn notes, rhythm, and music theory from scratch.</p>
+        <button>Start Learning</button>
+      </div>
+      <div class="card">
+        <h3>Intermediate Music</h3>
+        <p>Improve your skills with chords, scales, and harmony.</p>
+        <button>Explore</button>
+      </div>
+      <div class="card">
+        <h3>Advanced Music</h3>
+        <p>Master composition, improvisation, and performance.</p>
+        <button>Go Pro</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="instruments">
+    <h2>Instruments</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Piano</h3>
+        <p>From beginner to advanced piano lessons.</p>
+      </div>
+      <div class="card">
+        <h3>Guitar</h3>
+        <p>Acoustic and electric guitar tutorials.</p>
+      </div>
+      <div class="card">
+        <h3>Drums</h3>
+        <p>Learn rhythm, beats, and timing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="practice">
+    <h2>Daily Practice</h2>
+    <p>Practice makes perfect. Set goals, track progress, and play along with exercises.</p>
+    <button>Start Practice</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@musiclearning.com</p>
+    <p>Phone: +123 456 7890</p>
+  </section>
+
+  <footer>
+    © 2025 Music Learning. All rights reserved.
+  </footer>
+
+</body>
+</html>
